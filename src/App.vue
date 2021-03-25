@@ -1,18 +1,20 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    dsfgdsfdsf
+    <el-button @click="handlerClick">按钮</el-button>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+  },
+  methods: {
+    handlerClick(){
+      console.log('触发按钮');
+    }
+  },
 }
 </script>
 
