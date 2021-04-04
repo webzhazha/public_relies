@@ -8,6 +8,7 @@ const components = [
   FootNav
 ]
 
+let version = '0.1.6'
 
 const install = function(Vue) {
   console.log('触发install');
@@ -20,8 +21,14 @@ if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue);
 }
 
-export default {
-  install,
+// 按需导出
+export {
   Button,
   FootNav
+}
+
+// 全局导出
+export default {
+  install,
+  version
 }
