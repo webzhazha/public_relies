@@ -1,6 +1,7 @@
 {
   "name": "vuepack-my",
-  "version": "0.1.4",
+  "version": "0.1.5",
+  "description": "公共组件",
   "private": false,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -10,8 +11,12 @@
   },
   "main": "./lib/vuepack-my.umd.min.js",
   "dependencies": {
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "js-base64": "^3.6.0",
+    "qs": "^6.10.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.5.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
@@ -22,7 +27,6 @@
     "eslint-plugin-vue": "^6.2.2",
     "node-sass": "^4.14.1",
     "sass-loader": "^7.3.1",
-    "style-loader": "^1.0.0",
     "vue-template-compiler": "^2.6.11"
   },
   "eslintConfig": {

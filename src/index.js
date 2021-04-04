@@ -1,9 +1,11 @@
-import './style/index.css'
+import './style/index.scss'
 
 import Button from './components/button'
+import FootNav from './components/footNav'
 
 const components = [
-  Button
+  Button,
+  FootNav
 ]
 
 
@@ -20,5 +22,6 @@ if (typeof window !== 'undefined' && window.Vue) {
 
 export default {
   install,
-  Button
+  Button,
+  FootNav
 }
