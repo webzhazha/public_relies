@@ -85,6 +85,8 @@
 </template>
 <script>
 import service from '@/services'
+
+import {buildImage} from '@/mixins/'
 // 广告位id
 let healthId
 
@@ -105,6 +107,7 @@ export default {
       showAnchor:false
     }
   },
+  mixins: [buildImage],
   mounted() {
     console.log('dddd');
     console.log(this.$router);

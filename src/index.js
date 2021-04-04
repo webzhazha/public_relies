@@ -8,7 +8,7 @@ const components = [
   FootNav
 ]
 
-let version = '0.1.6'
+let version = '0.1.8'
 
 const install = function(Vue) {
   console.log('触发install');

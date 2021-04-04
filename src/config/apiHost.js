@@ -4,10 +4,9 @@
  * @Author: helloSun
  * @Date: 2020-05-20 15:40:39
  * @LastEditors: liuhaitao
- * @LastEditTime: 2021-04-04 15:57:28
+ * @LastEditTime: 2021-04-04 17:53:43
  */
 const gate = '//wechatgate.91160.com'
-
 // 2020.01.14 修改
 // DONE => weixin.91160.com/cube-data/ 修改为 wechatgate.91160.com/cube-data/v1/
 // DONE => weixin.91160.com/statistics/ 修改为 wechatgate.91160.com/advert-stat/v1/
@@ -32,7 +31,7 @@ let userPoint = ''
 let userActivities = ''
 
 if (process.env.NODE_ENV == 'development') {
-  cube = '/cube-data'
+  cube = gate + '/cube-data'
   comments = gate + '/comments'
   commerce = gate + '/commerce'
   knowledge = gate + '/knowledge'
@@ -79,7 +78,7 @@ if (process.env.NODE_ENV == 'production') {
   userActivities = gate + '/user_activities'
 }
 
-export default {
+export {
   gate,
   cube,
   comments,

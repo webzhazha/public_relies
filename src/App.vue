@@ -9,14 +9,7 @@
 <script>
 export default {
   name: 'App',
-  components: {
-  },
-  data(){
-    return {
-      STATICDOMAIN: process.env.NODE_ENV == 'production' ? `//wximg.91160.com` : `//wximg.91160.com`,
-      IMAGESDOMAIN: process.env.NODE_ENV == 'production' ? `//images.91160.com` : `//images.91160.com`,
-    }
-  },
+ 
   methods: {
     handlerClick(){
       console.log('触发按钮');

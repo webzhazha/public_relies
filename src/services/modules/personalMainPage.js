@@ -1,7 +1,9 @@
 import { get, patch } from '@/utils/request.js'
 // import store from '../../store/store.js'
 import { readCookie,getUrlParam } from '@/utils/util'
-import { cube, guaHao } from '@/config/apiHost'
+import { cube, guaHao } from '@/config/apiHost.js'
+console.log(222);
+console.log(cube);
 // import { getLatAndLng } from '@/config/getLatLng.js'
 const getUserKey = () => {
   // return store.state.Common.userInfo ? store.state.Common.userInfo.user_key : ''
