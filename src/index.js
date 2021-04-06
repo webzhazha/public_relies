@@ -3,14 +3,16 @@ import './style/index.scss'
 import Button from './components/button'
 import FootNav from './components/footNav'
 import DepTopBar from './components/depTopBar'
+import Banner from './components/banner'
 
 const components = [
   Button,
   FootNav,
-  DepTopBar
+  DepTopBar,
+  Banner
 ]
 
-let version = '0.1.12'
+let version = '0.1.13'
 
 const install = function(Vue) {
   components.forEach(component => {
@@ -26,7 +28,8 @@ if (typeof window !== 'undefined' && window.Vue) {
 export {
   Button,
   FootNav,
-  DepTopBar
+  DepTopBar,
+  Banner
 }
 
 // 全局导出

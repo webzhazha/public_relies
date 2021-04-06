@@ -54,6 +54,7 @@ import service from '@/services'
 import { swiper, swiperSlide } from 'vue-awesome-swiper'
 import 'swiper/dist/css/swiper.css'
 export default {
+  name: 'Banner',
   components: {
     swiper,
     swiperSlide

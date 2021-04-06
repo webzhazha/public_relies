@@ -1,9 +1,9 @@
-import ElButton from './src/button';
+import Banner from './src/banner';
 
 /* istanbul ignore next */
-ElButton.install = function(Vue) {
+Banner.install = function(Vue) {
   console.log('自动调用install');
-  Vue.component(ElButton.name, ElButton);
+  Vue.component(Banner.name, Banner);
 };
 
-export default ElButton;
+export default Banner;
