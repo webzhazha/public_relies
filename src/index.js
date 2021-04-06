@@ -12,7 +12,7 @@ const components = [
   Banner
 ]
 
-let version = '0.1.13'
+let version = '0.1.14'
 
 const install = function(Vue) {
   components.forEach(component => {

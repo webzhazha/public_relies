@@ -1,19 +1,18 @@
-import { get, patch } from '@/utils/request.js'
+import { get } from '@/utils/request.js'
 // import store from '../../store/store.js'
 import { readCookie,getUrlParam } from '@/utils/util'
-import { cube, guaHao } from '@/config/apiHost.js'
-console.log(222);
-console.log(cube);
-// import { getLatAndLng } from '@/config/getLatLng.js'
-const getUserKey = () => {
+
+const cube = '//wechatgate.91160.com/cube-data'
+
+// const getUserKey = () => {
   // return store.state.Common.userInfo ? store.state.Common.userInfo.user_key : ''
-  return ''
-}
+// }
 // 千人千面获取cube-data接口数据--不需要登录广告接口
 const getAdvertData = async params => {
   let cityId = getUrlParam('city_id') || (readCookie('location_city_id') || 5)
   let areaId = cityId ? `?area_id=${cityId}` : ''
-  const userKey = getUserKey() ? `&user_key=${getUserKey()}` : ''
+  // const userKey = getUserKey() ? `&user_key=${getUserKey()}` : ''
+  const userKey = readCookie('user_key') || ''
   //if(params.location_id == '121'){ //首页弹框广告id
   //传递性别年龄等信息
   const age = readCookie('account_user_age') || ''

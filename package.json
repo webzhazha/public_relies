@@ -1,6 +1,6 @@
 {
   "name": "vuepack",
-  "version": "0.1.13",
+  "version": "0.1.14",
   "description": "公共组件",
   "private": false,
   "scripts": {
