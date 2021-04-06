@@ -86,7 +86,7 @@
 <script>
 import service from '@/services'
 
-import {buildImage} from '@/mixins/'
+import {buildImage} from '@/mixins/' 
 // 广告位id
 let healthId
 

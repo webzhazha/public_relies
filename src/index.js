@@ -10,10 +10,9 @@ const components = [
   DepTopBar
 ]
 
-let version = '0.1.10'
+let version = '0.1.11'
 
 const install = function(Vue) {
-  console.log('触发install');
   components.forEach(component => {
     Vue.use(component);
   });

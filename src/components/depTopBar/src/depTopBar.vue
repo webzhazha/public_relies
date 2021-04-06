@@ -106,7 +106,7 @@ export default {
     return {
       showFocusModal: false,
       showDropDown: false,
-      qrcode: require('@/assets/static/qrcode.jpg'),
+      qrcode: '//wximg.91160.com/wechat/img/common/--qrcode.jpg',
       home: require('@/assets/static/home.png'),
       about: require('@/assets/static/about.png'),
       download: require('@/assets/static/download.png'),
