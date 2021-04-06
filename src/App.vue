@@ -2,7 +2,8 @@
   <div id="app">
     dsfgdsfdsf
     <el-button @click="handlerClick">按钮</el-button>
-    <footNav  />
+    <FootNav  />
+    <DepTopBar />
   </div>
 </template>
 

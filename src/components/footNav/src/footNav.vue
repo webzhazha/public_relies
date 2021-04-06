@@ -96,7 +96,7 @@ if (process.env.NODE_ENV !== 'production') {
   healthId = 2073 // 商城广告id镜像和线上
 }
 export default {
-  name: 'footNav',
+  name: 'FootNav',
   data() {
     return {
       msgNum: '',

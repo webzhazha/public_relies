@@ -2,13 +2,15 @@ import './style/index.scss'
 
 import Button from './components/button'
 import FootNav from './components/footNav'
+import DepTopBar from './components/depTopBar'
 
 const components = [
   Button,
-  FootNav
+  FootNav,
+  DepTopBar
 ]
 
-let version = '0.1.9'
+let version = '0.1.10'
 
 const install = function(Vue) {
   console.log('触发install');
@@ -24,7 +26,8 @@ if (typeof window !== 'undefined' && window.Vue) {
 // 按需导出
 export {
   Button,
-  FootNav
+  FootNav,
+  DepTopBar
 }
 
 // 全局导出

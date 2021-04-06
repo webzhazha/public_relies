@@ -1,6 +1,6 @@
 {
   "name": "vuepack-my",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "公共组件",
   "private": false,
   "scripts": {

@@ -15,9 +15,11 @@ import './style/index.scss'
 // 引入elButton
 import elButton from './components/button'
 import footNav from './components/footNav'
+import depTopBar from './components/depTopBar'
 
 Vue.use(elButton)
 Vue.use(footNav)
+Vue.use(depTopBar)
 
 new Vue({
   router,
