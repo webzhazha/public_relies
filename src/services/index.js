@@ -1,6 +1,6 @@
 
-import personalMainPage from './modules/personalMainPage.js'
+import common from './modules/common.js'
 
 export default {
-  personalMainPage
+  common
 }

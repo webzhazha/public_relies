@@ -10,7 +10,7 @@ const components = [
   DepTopBar
 ]
 
-let version = '0.1.11'
+let version = '0.1.12'
 
 const install = function(Vue) {
   components.forEach(component => {

@@ -209,7 +209,7 @@ export default {
       }
     },
     _getAdvertData(params) {
-      return service.personalMainPage.getAdvertData(params)
+      return service.common.getAdvertData(params)
     },
     /**
      * 底部商城广告获取
